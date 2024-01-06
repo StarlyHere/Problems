@@ -1,12 +1,12 @@
 n = int(input())
 s = input()
 
-anton_count = s.count("A")
-danik_count = n - anton_count
+anton = s.count("A")
+danik = n - anton
 
-if anton_count > danik_count:
+if anton > danik:
     print("Anton")
-elif anton_count == danik_count:
+elif anton == danik:
     print("Friendship")
 else:
     print("Danik")
