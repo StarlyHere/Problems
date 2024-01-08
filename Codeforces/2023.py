@@ -8,14 +8,14 @@ for i in range(t):
         product*=a[i]
 
     if 2023%product==0:
-        print("YES")
+        print("Yes")
         ls.append(2023//product)
         for i in range(b-len(ls)):
             ls.append(1)
         for i in range(len(ls)):
             print(ls[i], end=" ")      
     else:
-        print("NO")
+        print("No")
     
 
 
